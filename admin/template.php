@@ -56,12 +56,8 @@
                 <?php
 
                 if (isset($view)) {
-                    if ($view == "dashboard") {
-                        include_once("views/dash_view.php");
-                    } elseif ($view == "blog") {
-                        include_once("views/blog_view.php");
-                    } elseif ($view == "post") {
-                        include_once("views/post_view.php");
+                    if ($view == "add_category") {
+                        include_once("views/add_cat_view.php");
                     }
                 }
 

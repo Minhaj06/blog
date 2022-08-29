@@ -52,33 +52,38 @@
                                   <p>Active Page</p>
                               </a>
                           </li>
+                      </ul>
+                  </li>
+
+
+                  <li class="nav-item">
+                      <a href="#" class="nav-link active">
+                          <i class="nav-icon fas fa-tachometer-alt"></i>
+                          <p>
+                              Category
+                              <i class="right fas fa-angle-left"></i>
+                          </p>
+                      </a>
+                      <ul class="nav nav-treeview">
                           <li class="nav-item">
-                              <a href="#" class="nav-link">
+                              <a href="view-category.php" class="nav-link">
                                   <i class="far fa-circle nav-icon"></i>
-                                  <p>Inactive Page</p>
+                                  <p>View Category</p>
                               </a>
                           </li>
                           <li class="nav-item">
-                              <a href="blog.php" class="nav-link">
+                              <a href="add-category.php" class="nav-link">
                                   <i class="far fa-circle nav-icon"></i>
-                                  <p>blog</p>
-                              </a>
-                          </li>
-                          <li class="nav-item">
-                              <a href="index.php" class="nav-link">
-                                  <i class="far fa-circle nav-icon"></i>
-                                  <p>dashboard</p>
-                              </a>
-                          </li>
-                          <li class="nav-item">
-                              <a href="post.php" class="nav-link">
-                                  <i class="far fa-circle nav-icon"></i>
-                                  <p>post</p>
+                                  <p>Add Category</p>
                               </a>
                           </li>
                       </ul>
                   </li>
-                  <li class="nav-item">
+
+
+
+
+                  <!-- <li class="nav-item">
                       <a href="#" class="nav-link">
                           <i class="nav-icon fas fa-th"></i>
                           <p>
@@ -86,7 +91,7 @@
                               <span class="right badge badge-danger">New</span>
                           </p>
                       </a>
-                  </li>
+                  </li> -->
               </ul>
           </nav>
           <!-- /.sidebar-menu -->
