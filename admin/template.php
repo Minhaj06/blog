@@ -1,4 +1,7 @@
-<?php include_once("inc/meta_links.php") ?>
+<?php
+include_once("config.php");
+include_once("inc/meta_links.php")
+?>
 
 <div class="wrapper">
 
@@ -58,6 +61,10 @@
                 if (isset($view)) {
                     if ($view == "add_category") {
                         include_once("views/add_cat_view.php");
+                    } elseif ($view == "display_category") {
+                        include_once("views/display_cat_view.php");
+                    } elseif ($view == "edit_category") {
+                        include_once("views/edit_cat_view.php");
                     }
                 }
 

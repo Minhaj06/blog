@@ -1,6 +1,9 @@
+<?php include "message.php" ?>
+
 <div class="card">
     <div class="card-header">
-        <div class="card-title">Add Category Form</div>
+        <h4 class="float-start">Add Category Form</h4>
+        <a class="btn btn-warning mb-2 float-end" href="display-category.php">Back</a>
     </div>
     <div class="card-body">
         <form action="code.php" method="POST">
